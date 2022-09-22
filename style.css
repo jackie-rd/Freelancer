@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@100;400;700;800;900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +8,43 @@ Html{
 font-size: 62.5%;
 /*background-color: #2c3e50;*/
 
+}
+.menu-container{
+    background-color: #2c3e50;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 2rem 10rem;
+    
+
+}
+.logo{
+    font-size: 3rem;
+}
+
+.menu{
+    display: flex;
+    gap: 5rem;
+    font-size: 1.5rem;
+    align-items: center;
+
+}
+.home-container{
+    background-color: #18bc9c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+}
+h1{
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.5rem;
 }
 /* Iniciaras tu propio boilerplate para construir la estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
 
